@@ -1,6 +1,3 @@
-using System;
-using TechTalk.SpecFlow;
-
 namespace UDWebAPITemplateApp.AcceptanceTest.StepDefinitions;
 
 [Binding]
@@ -9,7 +6,7 @@ public class WeatherForecastStepDefinitions
     private readonly HttpClient httpClient;
     private HttpResponseMessage getWeatherForecastResponse;
 
-    public WeatherForecastStepDefinitions(HttpClient httpClient) => 
+    public WeatherForecastStepDefinitions(HttpClient httpClient) =>
         this.httpClient = httpClient;
 
     [When(@"I request today's weather")]

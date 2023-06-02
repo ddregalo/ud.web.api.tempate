@@ -3,6 +3,7 @@
   "author": "Unidays",
   "classifications": [ "Web API" ],
   "identity": "UDWebAPITemplateApp",
+  "sourceName": "UDWebAPITemplateApp",
   "name": "UD Web API Template App",
   "shortName": "udwebapi"
 }

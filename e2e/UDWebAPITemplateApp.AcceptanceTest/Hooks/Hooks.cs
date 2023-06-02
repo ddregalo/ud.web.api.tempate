@@ -1,4 +1,4 @@
-﻿using BoDi;
+using BoDi;
 using Microsoft.AspNetCore.Mvc.Testing;
 
 namespace UDWebAPITemplateApp.AcceptanceTest.Hooks;
@@ -14,7 +14,7 @@ public class WeatherHooks
 
     private WebApplicationFactory<Program> GetWebApplicationFactory() =>
     new WebApplicationFactory<Program>()
-        .WithWebHostBuilder(builder => {});
+        .WithWebHostBuilder(builder => { });
 
     [BeforeScenario]
     public async Task RegisterServices()

@@ -1,0 +1,32 @@
+﻿repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: check-json
+        exclude: \.vscode
+      - id: check-merge-conflict
+      - id: check-xml
+        files: \.csproj$
+        types: [file]
+      - id: check-yaml
+        args:
+          - --unsafe
+      - id: pretty-format-json
+        args: ['--autofix']
+        exclude: \.vscode
+  - repo: local
+    hooks:
+      #Use dotnet format already installed on your machine
+      -   id: dotnet-format
+          name: dotnet-format
+          language: system
+          entry: dotnet format --include
+          types_or: ["c#", "vb"]
+      - id: validate-circleci
+        name: Check CircleCI
+        files: .circleci/config.yml
+        language: docker_image
+        entry: -e HOME=/tmp circleci/circleci-cli:alpine
+        args:
+          - config
+          - validate

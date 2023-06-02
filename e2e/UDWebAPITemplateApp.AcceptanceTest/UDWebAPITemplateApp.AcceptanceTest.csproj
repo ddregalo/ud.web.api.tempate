@@ -21,12 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Drivers\" />
-    <Folder Include="Support\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\UDWebAPITemplateApp\UDWebAPITemplateApp.csproj" />
+    <ProjectReference Include="..\..\src\UDWebAPITemplateApp\UDWebAPITemplateApp.csproj" />
   </ItemGroup>
 
 </Project>

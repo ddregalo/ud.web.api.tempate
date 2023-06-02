@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".template.config", ".template.config", "{688E4113-E285-4C7D-A320-19535A6C08B6}"
 	ProjectSection(SolutionItems) = preProject
-		template.json = template.json
+		.template.config\template.json = .template.config\template.json
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A306BB4-457F-4291-808C-4F9946D2E2C7}"
