@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".template.config", ".template.config", "{688E4113-E285-4C7D-A320-19535A6C08B6}"
+	ProjectSection(SolutionItems) = preProject
+		template.json = template.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7A306BB4-457F-4291-808C-4F9946D2E2C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{35AEEEA8-A6E1-415F-B35B-B2B27C82EAC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A50AB92C-7686-48C4-B529-37D592C33E4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDWebAPITemplateApp", "src\UDWebAPITemplateApp\UDWebAPITemplateApp.csproj", "{26E36E53-43CF-415F-9FD5-E742D13DC53F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UDWebAPITemplateApp.AcceptanceTest", "e2e\UDWebAPITemplateApp.AcceptanceTest\UDWebAPITemplateApp.AcceptanceTest.csproj", "{D5A806C2-311D-4ECC-97CC-8EABB1C766C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26E36E53-43CF-415F-9FD5-E742D13DC53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E36E53-43CF-415F-9FD5-E742D13DC53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E36E53-43CF-415F-9FD5-E742D13DC53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E36E53-43CF-415F-9FD5-E742D13DC53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A806C2-311D-4ECC-97CC-8EABB1C766C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A806C2-311D-4ECC-97CC-8EABB1C766C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A806C2-311D-4ECC-97CC-8EABB1C766C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A806C2-311D-4ECC-97CC-8EABB1C766C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26E36E53-43CF-415F-9FD5-E742D13DC53F} = {7A306BB4-457F-4291-808C-4F9946D2E2C7}
+		{D5A806C2-311D-4ECC-97CC-8EABB1C766C8} = {35AEEEA8-A6E1-415F-B35B-B2B27C82EAC5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E687141F-812E-40DE-8EF7-216645284E09}
+	EndGlobalSection
+EndGlobal
