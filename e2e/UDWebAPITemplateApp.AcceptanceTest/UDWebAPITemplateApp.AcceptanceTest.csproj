@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\UDWebAPITemplateApp\UDWebAPITemplateApp.csproj" />
+    <ProjectReference Include="..\..\src\UDWebAPITemplateApp.Api\UDWebAPITemplateApp.Api.csproj" />
   </ItemGroup>
 
 </Project>

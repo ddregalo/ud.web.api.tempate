@@ -1,5 +1,6 @@
 using BoDi;
 using Microsoft.AspNetCore.Mvc.Testing;
+using UDWebAPITemplateApp.Api;
 
 namespace UDWebAPITemplateApp.AcceptanceTest.Hooks;
 [Binding]

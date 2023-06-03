@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace UDWebAPITemplateApp.Controllers;
+namespace UDWebAPITemplateApp.Api.Controllers;
 
 [ApiController]
 [Route("[controller]")]
